@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="224.0" prefWidth="315.0" text="Stacker" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.splitter.HelloController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="192.0" prefWidth="313.0">
+         <children>
+            <Button fx:id="unstackNonPos" layoutX="25.0" layoutY="14.0" mnemonicParsing="false" onAction="#unstackNonPO" text="Unstack Non-POs" />
+            <Button fx:id="unstackPos" layoutX="25.0" layoutY="54.0" mnemonicParsing="false" onAction="#unstackPO" text="Unstack POs" />
+            <Button fx:id="stackStatements" layoutX="27.0" layoutY="92.0" mnemonicParsing="false" onAction="#stackStatements" text="Stack Statements" />
+            <Text fx:id="result" layoutX="25.0" layoutY="168.0" text="Welcome Sha" />
+            <Button fx:id="stackNonPos" layoutX="157.0" layoutY="14.0" mnemonicParsing="false" onAction="#stackNonPO" text="Stack Non-POs" />
+            <Button fx:id="stackPos" layoutX="157.0" layoutY="54.0" mnemonicParsing="false" onAction="#stackPO" text="Stack POs" />
+            <Button fx:id="UnstackStatements" layoutX="157.0" layoutY="92.0" mnemonicParsing="false" onAction="#unstackStatements" text="Unstack Statements" />
+            <Label layoutX="25.0" layoutY="131.0" text="Info:" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
